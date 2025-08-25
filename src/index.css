@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #fff;
+  color: #000;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo{
+  margin-bottom: 10px;
+}
+.search-bar{
+  width: 400px;
+}
+.search-bar input{
+ width: 70%;
+ padding: 10px;
+ border-radius: 10px 0 0 10px;
+ outline: none;
+ border: 1px solid silver;
+}
+
+.search-bar button{
+  width: 30%;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+.search-bar button:hover{
+  background-color: #fff;
+  color: #000;
+}
+.movie-poster{
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.36);
+  cursor: pointer;
+
+}
+.movie-poster:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.movie-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rating{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid green;
+  border-radius: 100%;
+  padding: 10px;
+}
+.movie-card{
+  position: relative;
+}
+
+.movie-detail{
+  display: flex;
+  /* gap: 20px; */
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.trailer iframe{
+  width: 100%;
+  height: 400px;
+}
+
+.movie-detail-poster img{
+  width: 90%;
+}
+
+.movie-info{
+  width: 50%;
+  gap: 20px;
+} 
+@media screen and (max-width: 600px) {
+  .movie-info{
+    width: 100%;
+  }
+}
+.movie-overview{
+  padding: 20px 0;
+}
+
+.dark{
+  background-image: linear-gradient(to right, #2c3e50, #34495e, #3b5998, #4b6584, #2d3436);
+  color: #fff;
+}
+body{
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b, #ff99cc, #66ccff, #66ffcc, #b3ff66);;
+  color: #000
+}
+
+.mode{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  font-size: 30px;
+  /* border: none; */
+  border: 1px solid #fff;
+  border-radius: 100%;
+  
+}
+.btn{
+  margin: 20px;
+  color: #fff;
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
