@@ -1,6 +1,6 @@
 # My Movie App Project
 
-![Movie App Screenshot](https://github.com/joyobichie/my-movie-app-project/issues/1)
+<img src="https://github.com/user-attachments/assets/41b29e6e-f1a9-4442-b461-5ba64e8ac8fb" alt="Movie App Screenshot" width="600">
 
 A dynamic and responsive web application for browsing, searching, and discovering movies. This project was built with modern web technologies including React and Vite, and it fetches real-time movie data from The Movie Database (TMDB) API.
 
